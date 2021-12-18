@@ -1,42 +1,62 @@
 export const CardData = [
   {
-    image:
-      'https://media.istockphoto.com/photos/boss-baby-picture-id1134372799?b=1&k=20&m=1134372799&s=170667a&w=0&h=TBP5ZAScBT2ptVyDohdhQwkT91GR0MfBULoCb6H2W2M=',
+    id: '1',
+    variant: 'click',
+    front: 'Flip Me',
+    back: 'Match phrases in different languages',
   },
   {
-    image:
-      'https://images.unsplash.com/photo-1612036782180-6f0b6cd846fe?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2340&q=80',
+    id: '2',
+    variant: 'click',
+    front: 'Foo',
+    back: 'Bar',
   },
   {
-    image:
-      'https://images.unsplash.com/photo-1609793836508-5394116a57eb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8aiUyMGNvbGV8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60',
+    id: '3',
+    variant: 'click',
+    front: 'Apple',
+    back: 'Tree',
   },
   {
-    image:
-      'https://images.unsplash.com/photo-1527977966376-1c8408f9f108?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTl8fHNweXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=700&q=60',
+    id: '4',
+    variant: 'click',
+    front: 'Father',
+    back: 'Papi',
   },
   {
-    image:
-      'https://images.unsplash.com/photo-1605909247405-077c153bc75b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8ZW1vdGlvbnN8ZW58MHx8MHx8&auto=format&fit=crop&w=700&q=60',
+    id: '5',
+    variant: 'click',
+    front: 'fnfnw',
+    back: 'f9f9w',
   },
   {
-    image:
-      'https://images.unsplash.com/photo-1597635201981-308a4bfd0e55?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8c3BhY2VjcmFmdHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=700&q=60',
+    id: '6',
+    variant: 'click',
+    front: '[]',
+    back: 'Array',
   },
   {
-    image:
-      'https://media.istockphoto.com/photos/database-and-network-technology-picture-id1304450711?b=1&k=20&m=1304450711&s=170667a&w=0&h=kGedeBlOko0CZIfQzQdZn-Be2TGwd0QdlIOrEubds84=',
+    id: '7',
+    variant: 'click',
+    front: '() => {}',
+    back: 'es6 function',
   },
   {
-    image:
-      'https://media.istockphoto.com/photos/great-sand-sea-libyan-desert-africa-picture-id171280194?b=1&k=20&m=171280194&s=170667a&w=0&h=PmrGaJ8jbAa-eftmZTY7q-H-XTckzAt_ChHWPuK3Lo8=',
+    id: '8',
+    variant: 'click',
+    front: 'def my_function()',
+    back: 'Python function',
   },
   {
-    image:
-      'https://images.unsplash.com/photo-1592564630984-7410f94db184?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cmljayUyMGFuZCUyMG1vcnR5fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=700&q=60',
+    id: '9',
+    variant: 'click',
+    front: '{x.n}',
+    back: 'Object',
   },
   {
-    image:
-      'https://media.istockphoto.com/photos/kid-detective-wears-trench-coat-and-searches-for-clues-picture-id501743936?b=1&k=20&m=501743936&s=170667a&w=0&h=Wks6bab2t4OkemrdMXpYVMRkkYGcoPyhxPKf9c06tVQ=',
+    id: '10',
+    variant: 'click',
+    front: '===',
+    back: 'Strict equals',
   },
 ];
