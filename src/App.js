@@ -1,7 +1,7 @@
 import Card from './components/Card';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
-// import './styles.scss';
+import './styles.scss';
 
 const cards = [
   {
@@ -13,11 +13,17 @@ const cards = [
   {
     id: '2',
     variant: 'click',
+    front: 'foo',
+    back: 'bar',
+  },
+  {
+    id: '3',
+    variant: 'click',
     front: 'Click',
     back: 'Back',
   },
   {
-    id: '3',
+    id: '4',
     variant: 'focus',
     front: 'Focus',
     back: 'Back',

@@ -1,10 +1,43 @@
-import React from 'react';
-// import { UserCard } from 'react-ui-cards';
+import { useState } from 'react';
+import cn from 'classnames';
 
 function Card({ card }) {
+  const [showBack, setShowBack] = useState(false);
+
+  function handleClick() {
+    if (card.variant === 'click') {
+      setShowBack(!showBack);
+    }
+  }
+
+  function handleFocus() {
+    if (card.variant === 'focus') {
+      setShowBack(true);
+    }
+  }
+
+  function handleBlur() {
+    if (card.variant === 'focus') {
+      setShowBack(false);
+    }
+  }
+
   return (
-    <div className='flip-card-outer'>
-      <div className='flip-card-inner'>
+    <div
+      tabIndex={card.id}
+      className={cn('flip-card-outer', {
+        'focus-trigger': card.variant === 'focus',
+      })}
+      onClick={handleClick}
+      onFocus={handleFocus}
+      onBlur={handleBlur}
+    >
+      <div
+        className={cn('flip-card-inner', {
+          showBack,
+          'hover-trigger': card.variant === 'hover',
+        })}
+      >
         <div className='card front'>
           <div className='card-body d-flex justify-content-center align-items-center'>
             <p className='card-text fs-1 fw-bold'>{card.front}</p>
